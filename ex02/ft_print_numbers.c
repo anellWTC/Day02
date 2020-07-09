@@ -1,19 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar_alphabet.c                              :+:      :+:    :+:   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: anell <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/08 15:59:27 by anell             #+#    #+#             */
-/*   Updated: 2020/07/09 11:38:54 by anell            ###   ########.fr       */
+/*   Created: 2020/07/09 11:22:48 by anell             #+#    #+#             */
+/*   Updated: 2020/07/09 12:05:59 by anell            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_print_alphabet(void)
+void ft_print_numbers (void)
 {
-	write(1,"abcdefghijklmnopqrstuvwxyz",27);
+	write(1, "0123456789", 10);
 }
-
